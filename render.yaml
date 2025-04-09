@@ -8,4 +8,4 @@ services:
     autoDeploy: true
     envVars:
       - key: OPENAI_API_KEY
-        sync: false
+        value: ${{ secrets.OPENAI_API_KEY }}
